@@ -1,0 +1,1 @@
+# mongo-minimal-lab
