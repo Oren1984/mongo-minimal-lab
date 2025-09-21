@@ -1,0 +1,9 @@
+$ docker exec -it mongo mongosh -u admin -p admin123 --authenticationDatabase admin
+> use labdb
+switched to db labdb
+> db.students.find()
+[
+  { _id: ObjectId("..."), name: "Daniel", course: "DevOps",      score: 88 },
+  { _id: ObjectId("..."), name: "Maya",   course: "Cloud",       score: 92 },
+  { _id: ObjectId("..."), name: "Ron",    course: "Kubernetes",  score: 81 }
+]

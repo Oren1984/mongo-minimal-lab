@@ -1,0 +1,6 @@
+$ docker exec -it mongo mongosh -u admin -p admin123 --authenticationDatabase admin
+> show dbs
+admin   100.00 KiB
+config   12.00 KiB
+labdb    40.00 KiB
+local    40.00 KiB
